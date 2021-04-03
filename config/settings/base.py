@@ -75,6 +75,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "awesomeblog.users.apps.UsersConfig",
+    "awesomeblog.core.apps.CoreConfig",
+    "awesomeblog.seo.apps.SeoConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
