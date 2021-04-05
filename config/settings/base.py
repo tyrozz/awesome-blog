@@ -71,12 +71,14 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
+    "taggit",
 ]
 
 LOCAL_APPS = [
     "awesomeblog.users.apps.UsersConfig",
     "awesomeblog.core.apps.CoreConfig",
     "awesomeblog.seo.apps.SeoConfig",
+    "awesomeblog.blog.apps.BlogConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
