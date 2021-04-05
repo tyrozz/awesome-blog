@@ -68,6 +68,7 @@ THIRD_PARTY_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "graphene_django",
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
@@ -286,3 +287,6 @@ REST_FRAMEWORK = {
 CORS_URLS_REGEX = r"^/api/.*$"
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+
+GRAPHENE = {"SCHEMA": "awesomeblog.graphql.schema.schema"}
